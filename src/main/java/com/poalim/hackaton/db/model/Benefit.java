@@ -11,9 +11,10 @@ public class Benefit {
     @Id
     private String id;
     private String title;
+    private String merchantId;
     private String description;
     private Double amount;
-    private int points;
+    private int score;
     private String category;
     private String image;
 
