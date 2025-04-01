@@ -10,14 +10,11 @@ public class Benefit {
 
     @Id
     private String id;
-
     private String title;
     private String description;
     private Double amount;
     private int points;
     private String category;
     private String image;
-
-
 
 }
