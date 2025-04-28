@@ -1,6 +1,14 @@
 package com.poalim.hackaton.process;
 
+import com.poalim.hackaton.db.model.Transaction;
+import com.poalim.hackaton.db.repository.BenefitRepository;
+import com.poalim.hackaton.db.repository.TransactionRepository;
 import com.poalim.hackaton.rest.object.Benefit;
+import com.poalim.hackaton.service.feign.AnalayzeConverter;
+import com.poalim.hackaton.service.feign.AnalyzeClient;
+import com.poalim.hackaton.service.feign.object.AnalalyzeResponse;
+import com.poalim.hackaton.service.feign.object.AnalayzeRequest;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -9,7 +17,21 @@ import java.util.List;
 @Service
 public class ProcessApiRequest {
 
+    @Autowired
+    private BenefitRepository benefitRepository;
+    
+    @Autowired
+    private TransactionRepository transactionRepository;
+
+    private AnalyzeClient analyzeClient;
+
     public List<Benefit> getMissedOpportunities(String customerId){
+        List<com.poalim.hackaton.db.model.Benefit> benefitsData = benefitRepository.findAll();
+        List<Transaction> transactions = transactionRepository.findAll();
+
+//        AnalayzeRequest analyze = AnalayzeConverter.convertAnalayzeRequest(benefitsData, transactions);
+//        AnalalyzeResponse response = analyzeClient.analyze(analyze);
+
         List benefits = new ArrayList();
         benefits.add( new Benefit("m1"
                 ,"Flight Discounts","You could have saved on your flight to London. Next time use our app!"
