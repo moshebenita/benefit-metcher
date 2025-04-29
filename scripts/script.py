@@ -58,32 +58,48 @@ def extract_json(text):
 # Build prompt based on input
 def build_prompt(credit_usages, benefits):
     return (
-        "You are given two lists:\n"
-        f"1. Credit card expenses: {credit_usages}\n"
-        f"2. Available benefits: {benefits}\n"
-        "Your task is to identify unused benefits that match businesses listed in the expenses.\n"
-        "Group the unused benefits by category, using your own knowledge to determine the category of each business.\n"
-        "IMPORTANT: Only use one of the following categories:\n"
-        " - Movies\n"
-        " - Food\n"
-        " - Attraction\n"
-        " - Entertainment\n"
-        " - Home\n"
-        " - Clothes\n"
-        "Use your own knowledge to decide the best fit.\n"
-        "⚠️ IMPORTANT: Do NOT use the category field from the input.\n"
-        "⚠️ IMPORTANT: ONLY return a valid JSON object. DO NOT explain, format, or include any text around the JSON.\n"
-        "⚠️ Output only this structure (nothing more):\n"
-        "{\n"
-        "  \"insights_by_category\": [\n"
-        "    {\n"
-        "      \"category\": \"<string>\",\n"
-        "      \"benefits\": [\n"
-        "        {\"business\": \"<string>\", \"description\": \"<string>\"}\n"
-        "      ]\n"
-        "    }\n"
-        "  ]\n"
-        "}\n"
+            "You are given two input lists:\n" +
+            f"1. Credit card expenses: {credit_usages}\n" +
+            f"2. Available benefits: {benefits}\n" +
+            "\n" +
+            "Your task is to identify unused benefits where the business name appears in the expenses list.\n" +
+            "Group the unused benefits by category, using your own judgment to determine the best fit.\n" +
+            "\n" +
+            "⚠️ USE ONLY the following categories (exactly as written):\n" +
+            " - Movies\n" +
+            " - Food\n" +
+            " - Attraction\n" +
+            " - Entertainment\n" +
+            " - Home\n" +
+            " - Clothes\n" +
+            "\n" +
+            "⚠️ DO NOT use the category field from the input.\n" +
+            "⚠️ DO NOT return any explanation, formatting, or extra text.\n" +
+            "⚠️ You must return a single valid JSON object with the following **exact** structure.\n" +
+            "⚠️ All fields must be present and non-null in every benefit object.\n" +
+            "\n" +
+            "Return only this:\n" +
+            "{\n" +
+            "  \"insightsByCategory\": [\n" +
+            "    {\n" +
+            "      \"category\": \"<string>\",\n" +
+            "      \"benefits\": [\n" +
+            "        {\n" +
+            "          \"id\": \"<string>\",\n" +
+            "          \"title\": \"<string>\",\n" +
+            "          \"description\": \"<string>\",\n" +
+            "          \"savings\": \"<string>\",\n" +
+            "          \"points\": <int>,\n" +
+            "          \"category\": \"<string>\",\n" +
+            "          \"image\": \"<string>\",\n" +
+            "          \"type\": \"<string>\",\n" +
+            "          \"purchaseDate\": \"<string>\",\n" +
+            "          \"originalPrice\": \"<string>\"\n" +
+            "        }\n" +
+            "      ]\n" +
+            "    }\n" +
+            "  ]\n" +
+            "}"
     )
 
 @app.route('/analyze', methods=['POST'])

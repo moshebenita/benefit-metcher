@@ -1,81 +1,891 @@
-[{"_id":{"$oid":"67ebf844fc13ae1ffa5b5954"},"merchantName":"Shufersal","merchantId":12,"amount":81,"createDate":{"$date":"2025-03-29T00:42:22.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5955"},"merchantName":"Rami Levy","merchantId":13,"amount":95,"createDate":{"$date":"2025-03-10T20:25:55.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5956"},"merchantName":"Super-Sol","merchantId":14,"amount":23,"createDate":{"$date":"2025-03-29T16:07:46.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5957"},"merchantName":"Pango","merchantId":15,"amount":46,"createDate":{"$date":"2025-03-10T12:59:17.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5958"},"merchantName":"Strauss Group","merchantId":16,"amount":32,"createDate":{"$date":"2025-03-21T20:33:35.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5959"},"merchantName":"Teva Pharmaceuticals","merchantId":17,"amount":45,"createDate":{"$date":"2025-03-30T18:50:26.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595a"},"merchantName":"Azrieli Group","merchantId":18,"amount":28,"createDate":{"$date":"2025-03-05T19:22:07.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595b"},"merchantName":"Maya Group","merchantId":19,"amount":49,"createDate":{"$date":"2025-03-26T10:08:13.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595c"},"merchantName":"Electra Consumer Products","merchantId":20,"amount":87,"createDate":{"$date":"2025-03-15T18:06:38.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595d"},"merchantName":"Sahan","merchantId":21,"amount":89,"createDate":{"$date":"2025-03-16T18:50:51.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595e"},"merchantName":"Cellcom","merchantId":22,"amount":56,"createDate":{"$date":"2025-03-12T05:23:47.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b595f"},"merchantName":"Partner Communications","merchantId":23,"amount":48,"createDate":{"$date":"2025-03-21T13:23:01.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5960"},"merchantName":"Bezeq","merchantId":24,"amount":35,"createDate":{"$date":"2025-03-23T20:32:53.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5961"},"merchantName":"Alon Blue Square","merchantId":25,"amount":76,"createDate":{"$date":"2025-03-09T04:40:24.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5962"},"merchantName":"Tnuva","merchantId":26,"amount":39,"createDate":{"$date":"2025-03-22T19:37:44.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5963"},"merchantName":"Osem","merchantId":27,"amount":22,"createDate":{"$date":"2025-03-02T22:29:28.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5964"},"merchantName":"Elite","merchantId":28,"amount":100,"createDate":{"$date":"2025-03-25T09:31:59.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5965"},"merchantName":"SodaStream","merchantId":29,"amount":41,"createDate":{"$date":"2025-03-18T02:30:54.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5966"},"merchantName":"Wix","merchantId":30,"amount":95,"createDate":{"$date":"2025-03-17T20:28:51.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5967"},"merchantName":"Amdocs","merchantId":31,"amount":30,"createDate":{"$date":"2025-03-20T17:08:08.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5968"},"merchantName":"Mobileye","merchantId":32,"amount":56,"createDate":{"$date":"2025-03-20T05:41:41.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5969"},"merchantName":"Check Point Software Technologies","merchantId":33,"amount":83,"createDate":{"$date":"2025-03-23T14:38:45.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596a"},"merchantName":"NICE Systems","merchantId":34,"amount":33,"createDate":{"$date":"2025-03-29T06:37:42.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596b"},"merchantName":"Fattal Group","merchantId":35,"amount":63,"createDate":{"$date":"2025-03-30T05:44:33.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596c"},"merchantName":"Caesarstone","merchantId":36,"amount":53,"createDate":{"$date":"2025-03-24T01:50:59.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596d"},"merchantName":"Elbit Systems","merchantId":37,"amount":96,"createDate":{"$date":"2025-03-12T00:27:20.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596e"},"merchantName":"Plasson Industries","merchantId":38,"amount":37,"createDate":{"$date":"2025-03-20T01:01:07.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b596f"},"merchantName":"Israel Chemicals (ICL)","merchantId":39,"amount":80,"createDate":{"$date":"2025-03-30T20:43:45.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5970"},"merchantName":"H&M Israel","merchantId":40,"amount":59,"createDate":{"$date":"2025-03-23T04:00:53.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5971"},"merchantName":"Levi's Israel","merchantId":41,"amount":27,"createDate":{"$date":"2025-03-26T15:29:23.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5972"},"merchantName":"Lacoste Israel","merchantId":42,"amount":97,"createDate":{"$date":"2025-03-18T11:34:53.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5973"},"merchantName":"Nike Israel","merchantId":43,"amount":30,"createDate":{"$date":"2025-03-28T19:03:58.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5974"},"merchantName":"Adidas Israel","merchantId":44,"amount":24,"createDate":{"$date":"2025-03-01T14:36:45.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5975"},"merchantName":"Under Armour Israel","merchantId":45,"amount":47,"createDate":{"$date":"2025-03-03T22:16:09.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5976"},"merchantName":"Tommy Hilfiger Israel","merchantId":46,"amount":35,"createDate":{"$date":"2025-03-19T12:17:00.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5977"},"merchantName":"Diesel Israel","merchantId":47,"amount":55,"createDate":{"$date":"2025-03-13T00:30:07.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5978"},"merchantName":"Spritz","merchantId":48,"amount":80,"createDate":{"$date":"2025-03-14T22:26:24.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5979"},"merchantName":"Aluma Tech","merchantId":49,"amount":52,"createDate":{"$date":"2025-03-26T20:16:05.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b597a"},"merchantName":"Hutzot HaYotzer","merchantId":50,"amount":34,"createDate":{"$date":"2025-03-12T20:32:37.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5986"},"merchantName":"Shufersal","merchantId":12,"amount":84,"createDate":{"$date":"2025-03-09T09:41:05.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5987"},"merchantName":"Rami Levy","merchantId":13,"amount":58,"createDate":{"$date":"2025-03-30T00:54:02.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5988"},"merchantName":"Super-Sol","merchantId":14,"amount":77,"createDate":{"$date":"2025-03-20T06:53:47.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5989"},"merchantName":"Pango","merchantId":15,"amount":100,"createDate":{"$date":"2025-03-09T08:15:44.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598a"},"merchantName":"Strauss Group","merchantId":16,"amount":26,"createDate":{"$date":"2025-03-23T00:10:30.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598b"},"merchantName":"Teva Pharmaceuticals","merchantId":17,"amount":26,"createDate":{"$date":"2025-03-26T14:49:08.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598c"},"merchantName":"Azrieli Group","merchantId":18,"amount":77,"createDate":{"$date":"2025-03-28T15:30:34.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598d"},"merchantName":"Maya Group","merchantId":19,"amount":56,"createDate":{"$date":"2025-03-05T01:08:30.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598e"},"merchantName":"Electra Consumer Products","merchantId":20,"amount":99,"createDate":{"$date":"2025-03-01T04:58:37.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b598f"},"merchantName":"Sahan","merchantId":21,"amount":79,"createDate":{"$date":"2025-03-17T23:32:13.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5990"},"merchantName":"Cellcom","merchantId":22,"amount":87,"createDate":{"$date":"2025-03-26T11:08:53.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5991"},"merchantName":"Partner Communications","merchantId":23,"amount":93,"createDate":{"$date":"2025-03-21T02:11:33.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5992"},"merchantName":"Bezeq","merchantId":24,"amount":24,"createDate":{"$date":"2025-03-12T06:18:29.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5993"},"merchantName":"Alon Blue Square","merchantId":25,"amount":58,"createDate":{"$date":"2025-03-10T19:39:39.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5994"},"merchantName":"Tnuva","merchantId":26,"amount":71,"createDate":{"$date":"2025-03-02T15:21:52.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5995"},"merchantName":"Osem","merchantId":27,"amount":86,"createDate":{"$date":"2025-03-25T00:41:04.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5996"},"merchantName":"Elite","merchantId":28,"amount":62,"createDate":{"$date":"2025-03-12T21:27:50.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5997"},"merchantName":"SodaStream","merchantId":29,"amount":88,"createDate":{"$date":"2025-03-04T12:39:17.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5998"},"merchantName":"Wix","merchantId":30,"amount":39,"createDate":{"$date":"2025-03-24T20:13:34.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b5999"},"merchantName":"Amdocs","merchantId":31,"amount":34,"createDate":{"$date":"2025-03-09T10:19:53.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599a"},"merchantName":"Mobileye","merchantId":32,"amount":57,"createDate":{"$date":"2025-03-06T03:50:07.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599b"},"merchantName":"Check Point Software Technologies","merchantId":33,"amount":85,"createDate":{"$date":"2025-03-25T18:28:32.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599c"},"merchantName":"NICE Systems","merchantId":34,"amount":32,"createDate":{"$date":"2025-03-25T16:33:01.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599d"},"merchantName":"Fattal Group","merchantId":35,"amount":65,"createDate":{"$date":"2025-03-16T02:58:50.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599e"},"merchantName":"Caesarstone","merchantId":36,"amount":54,"createDate":{"$date":"2025-03-01T12:18:27.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b599f"},"merchantName":"Elbit Systems","merchantId":37,"amount":75,"createDate":{"$date":"2025-03-01T00:01:36.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a0"},"merchantName":"Plasson Industries","merchantId":38,"amount":64,"createDate":{"$date":"2025-03-20T22:09:12.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a1"},"merchantName":"Israel Chemicals (ICL)","merchantId":39,"amount":61,"createDate":{"$date":"2025-03-04T05:24:20.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a2"},"merchantName":"H&M Israel","merchantId":40,"amount":40,"createDate":{"$date":"2025-03-03T09:30:13.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a3"},"merchantName":"Levi's Israel","merchantId":41,"amount":20,"createDate":{"$date":"2025-03-21T06:49:24.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a4"},"merchantName":"Lacoste Israel","merchantId":42,"amount":68,"createDate":{"$date":"2025-03-28T10:33:26.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a5"},"merchantName":"Nike Israel","merchantId":43,"amount":63,"createDate":{"$date":"2025-03-19T04:50:32.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a6"},"merchantName":"Adidas Israel","merchantId":44,"amount":64,"createDate":{"$date":"2025-03-07T00:20:01.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a7"},"merchantName":"Under Armour Israel","merchantId":45,"amount":64,"createDate":{"$date":"2025-03-14T12:45:10.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a8"},"merchantName":"Tommy Hilfiger Israel","merchantId":46,"amount":55,"createDate":{"$date":"2025-03-21T17:20:02.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59a9"},"merchantName":"Diesel Israel","merchantId":47,"amount":100,"createDate":{"$date":"2025-03-06T15:33:35.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59aa"},"merchantName":"Spritz","merchantId":48,"amount":89,"createDate":{"$date":"2025-03-08T20:51:01.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59ab"},"merchantName":"Aluma Tech","merchantId":49,"amount":48,"createDate":{"$date":"2025-03-21T08:43:52.000Z"}},
-{"_id":{"$oid":"67ebf844fc13ae1ffa5b59ac"},"merchantName":"Hutzot HaYotzer","merchantId":50,"amount":73,"createDate":{"$date":"2025-03-17T12:10:08.000Z"}},
-{"_id":{"$oid":"67ebf8c9fc13ae218d5b58ee"},"merchantName":"WOLT","merchantId":10,"amount":73,"createDate":{"$date":"2025-03-13T05:14:44.000Z"}},
-{"_id":{"$oid":"67ebf8c9fc13ae218d5b58e5"},"merchantName":"Yes Planet","merchantId":1,"amount":56,"createDate":{"$date":"2025-03-24T22:58:56.000Z"}},
-{"_id":{"$oid":"67ebf8c9fc13ae218d5b58ef"},"merchantName":"Domino's Pizza","merchantId":11,"amount":68,"createDate":{"$date":"2025-03-29T11:08:09.000Z"}}]
+[{
+  "_id": {
+    "$oid": "67ebf844fc13ae1ffa5b5954"
+  },
+  "merchantName": "Shufersal",
+  "merchantId": 12,
+  "amount": 81,
+  "createDate": {
+    "$date": "2025-03-29T00:42:22.000Z"
+  }
+},
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5955"
+    },
+    "merchantName": "Rami Levy",
+    "merchantId": 13,
+    "amount": 95,
+    "createDate": {
+      "$date": "2025-03-10T20:25:55.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5956"
+    },
+    "merchantName": "Super-Sol",
+    "merchantId": 14,
+    "amount": 23,
+    "createDate": {
+      "$date": "2025-03-29T16:07:46.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5957"
+    },
+    "merchantName": "Pango",
+    "merchantId": 15,
+    "amount": 46,
+    "createDate": {
+      "$date": "2025-03-10T12:59:17.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5958"
+    },
+    "merchantName": "Strauss Group",
+    "merchantId": 16,
+    "amount": 32,
+    "createDate": {
+      "$date": "2025-03-21T20:33:35.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5959"
+    },
+    "merchantName": "Teva Pharmaceuticals",
+    "merchantId": 17,
+    "amount": 45,
+    "createDate": {
+      "$date": "2025-03-30T18:50:26.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595a"
+    },
+    "merchantName": "Azrieli Group",
+    "merchantId": 18,
+    "amount": 28,
+    "createDate": {
+      "$date": "2025-03-05T19:22:07.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595b"
+    },
+    "merchantName": "Maya Group",
+    "merchantId": 19,
+    "amount": 49,
+    "createDate": {
+      "$date": "2025-03-26T10:08:13.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595c"
+    },
+    "merchantName": "Electra Consumer Products",
+    "merchantId": 20,
+    "amount": 87,
+    "createDate": {
+      "$date": "2025-03-15T18:06:38.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595d"
+    },
+    "merchantName": "Sahan",
+    "merchantId": 21,
+    "amount": 89,
+    "createDate": {
+      "$date": "2025-03-16T18:50:51.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595e"
+    },
+    "merchantName": "Cellcom",
+    "merchantId": 22,
+    "amount": 56,
+    "createDate": {
+      "$date": "2025-03-12T05:23:47.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b595f"
+    },
+    "merchantName": "Partner Communications",
+    "merchantId": 23,
+    "amount": 48,
+    "createDate": {
+      "$date": "2025-03-21T13:23:01.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5960"
+    },
+    "merchantName": "Bezeq",
+    "merchantId": 24,
+    "amount": 35,
+    "createDate": {
+      "$date": "2025-03-23T20:32:53.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5961"
+    },
+    "merchantName": "Alon Blue Square",
+    "merchantId": 25,
+    "amount": 76,
+    "createDate": {
+      "$date": "2025-03-09T04:40:24.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5962"
+    },
+    "merchantName": "Tnuva",
+    "merchantId": 26,
+    "amount": 39,
+    "createDate": {
+      "$date": "2025-03-22T19:37:44.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5963"
+    },
+    "merchantName": "Osem",
+    "merchantId": 27,
+    "amount": 22,
+    "createDate": {
+      "$date": "2025-03-02T22:29:28.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5964"
+    },
+    "merchantName": "Elite",
+    "merchantId": 28,
+    "amount": 100,
+    "createDate": {
+      "$date": "2025-03-25T09:31:59.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5965"
+    },
+    "merchantName": "SodaStream",
+    "merchantId": 29,
+    "amount": 41,
+    "createDate": {
+      "$date": "2025-03-18T02:30:54.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5966"
+    },
+    "merchantName": "Wix",
+    "merchantId": 30,
+    "amount": 95,
+    "createDate": {
+      "$date": "2025-03-17T20:28:51.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5967"
+    },
+    "merchantName": "Amdocs",
+    "merchantId": 31,
+    "amount": 30,
+    "createDate": {
+      "$date": "2025-03-20T17:08:08.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5968"
+    },
+    "merchantName": "Mobileye",
+    "merchantId": 32,
+    "amount": 56,
+    "createDate": {
+      "$date": "2025-03-20T05:41:41.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5969"
+    },
+    "merchantName": "Check Point Software Technologies",
+    "merchantId": 33,
+    "amount": 83,
+    "createDate": {
+      "$date": "2025-03-23T14:38:45.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596a"
+    },
+    "merchantName": "NICE Systems",
+    "merchantId": 34,
+    "amount": 33,
+    "createDate": {
+      "$date": "2025-03-29T06:37:42.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596b"
+    },
+    "merchantName": "Fattal Group",
+    "merchantId": 35,
+    "amount": 63,
+    "createDate": {
+      "$date": "2025-03-30T05:44:33.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596c"
+    },
+    "merchantName": "Caesarstone",
+    "merchantId": 36,
+    "amount": 53,
+    "createDate": {
+      "$date": "2025-03-24T01:50:59.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596d"
+    },
+    "merchantName": "Elbit Systems",
+    "merchantId": 37,
+    "amount": 96,
+    "createDate": {
+      "$date": "2025-03-12T00:27:20.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596e"
+    },
+    "merchantName": "Plasson Industries",
+    "merchantId": 38,
+    "amount": 37,
+    "createDate": {
+      "$date": "2025-03-20T01:01:07.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b596f"
+    },
+    "merchantName": "Israel Chemicals (ICL)",
+    "merchantId": 39,
+    "amount": 80,
+    "createDate": {
+      "$date": "2025-03-30T20:43:45.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5970"
+    },
+    "merchantName": "H&M Israel",
+    "merchantId": 40,
+    "amount": 59,
+    "createDate": {
+      "$date": "2025-03-23T04:00:53.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5971"
+    },
+    "merchantName": "Levi's Israel",
+    "merchantId": 41,
+    "amount": 27,
+    "createDate": {
+      "$date": "2025-03-26T15:29:23.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5972"
+    },
+    "merchantName": "Lacoste Israel",
+    "merchantId": 42,
+    "amount": 97,
+    "createDate": {
+      "$date": "2025-03-18T11:34:53.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5973"
+    },
+    "merchantName": "Nike Israel",
+    "merchantId": 43,
+    "amount": 30,
+    "createDate": {
+      "$date": "2025-03-28T19:03:58.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5974"
+    },
+    "merchantName": "Adidas Israel",
+    "merchantId": 44,
+    "amount": 24,
+    "createDate": {
+      "$date": "2025-03-01T14:36:45.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5975"
+    },
+    "merchantName": "Under Armour Israel",
+    "merchantId": 45,
+    "amount": 47,
+    "createDate": {
+      "$date": "2025-03-03T22:16:09.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5976"
+    },
+    "merchantName": "Tommy Hilfiger Israel",
+    "merchantId": 46,
+    "amount": 35,
+    "createDate": {
+      "$date": "2025-03-19T12:17:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5977"
+    },
+    "merchantName": "Diesel Israel",
+    "merchantId": 47,
+    "amount": 55,
+    "createDate": {
+      "$date": "2025-03-13T00:30:07.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5978"
+    },
+    "merchantName": "Spritz",
+    "merchantId": 48,
+    "amount": 80,
+    "createDate": {
+      "$date": "2025-03-14T22:26:24.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5979"
+    },
+    "merchantName": "Aluma Tech",
+    "merchantId": 49,
+    "amount": 52,
+    "createDate": {
+      "$date": "2025-03-26T20:16:05.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b597a"
+    },
+    "merchantName": "Hutzot HaYotzer",
+    "merchantId": 50,
+    "amount": 34,
+    "createDate": {
+      "$date": "2025-03-12T20:32:37.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5986"
+    },
+    "merchantName": "Shufersal",
+    "merchantId": 12,
+    "amount": 84,
+    "createDate": {
+      "$date": "2025-03-09T09:41:05.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5987"
+    },
+    "merchantName": "Rami Levy",
+    "merchantId": 13,
+    "amount": 58,
+    "createDate": {
+      "$date": "2025-03-30T00:54:02.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5988"
+    },
+    "merchantName": "Super-Sol",
+    "merchantId": 14,
+    "amount": 77,
+    "createDate": {
+      "$date": "2025-03-20T06:53:47.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5989"
+    },
+    "merchantName": "Pango",
+    "merchantId": 15,
+    "amount": 100,
+    "createDate": {
+      "$date": "2025-03-09T08:15:44.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598a"
+    },
+    "merchantName": "Strauss Group",
+    "merchantId": 16,
+    "amount": 26,
+    "createDate": {
+      "$date": "2025-03-23T00:10:30.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598b"
+    },
+    "merchantName": "Teva Pharmaceuticals",
+    "merchantId": 17,
+    "amount": 26,
+    "createDate": {
+      "$date": "2025-03-26T14:49:08.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598c"
+    },
+    "merchantName": "Azrieli Group",
+    "merchantId": 18,
+    "amount": 77,
+    "createDate": {
+      "$date": "2025-03-28T15:30:34.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598d"
+    },
+    "merchantName": "Maya Group",
+    "merchantId": 19,
+    "amount": 56,
+    "createDate": {
+      "$date": "2025-03-05T01:08:30.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598e"
+    },
+    "merchantName": "Electra Consumer Products",
+    "merchantId": 20,
+    "amount": 99,
+    "createDate": {
+      "$date": "2025-03-01T04:58:37.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b598f"
+    },
+    "merchantName": "Sahan",
+    "merchantId": 21,
+    "amount": 79,
+    "createDate": {
+      "$date": "2025-03-17T23:32:13.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5990"
+    },
+    "merchantName": "Cellcom",
+    "merchantId": 22,
+    "amount": 87,
+    "createDate": {
+      "$date": "2025-03-26T11:08:53.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5991"
+    },
+    "merchantName": "Partner Communications",
+    "merchantId": 23,
+    "amount": 93,
+    "createDate": {
+      "$date": "2025-03-21T02:11:33.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5992"
+    },
+    "merchantName": "Bezeq",
+    "merchantId": 24,
+    "amount": 24,
+    "createDate": {
+      "$date": "2025-03-12T06:18:29.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5993"
+    },
+    "merchantName": "Alon Blue Square",
+    "merchantId": 25,
+    "amount": 58,
+    "createDate": {
+      "$date": "2025-03-10T19:39:39.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5994"
+    },
+    "merchantName": "Tnuva",
+    "merchantId": 26,
+    "amount": 71,
+    "createDate": {
+      "$date": "2025-03-02T15:21:52.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5995"
+    },
+    "merchantName": "Osem",
+    "merchantId": 27,
+    "amount": 86,
+    "createDate": {
+      "$date": "2025-03-25T00:41:04.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5996"
+    },
+    "merchantName": "Elite",
+    "merchantId": 28,
+    "amount": 62,
+    "createDate": {
+      "$date": "2025-03-12T21:27:50.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5997"
+    },
+    "merchantName": "SodaStream",
+    "merchantId": 29,
+    "amount": 88,
+    "createDate": {
+      "$date": "2025-03-04T12:39:17.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5998"
+    },
+    "merchantName": "Wix",
+    "merchantId": 30,
+    "amount": 39,
+    "createDate": {
+      "$date": "2025-03-24T20:13:34.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b5999"
+    },
+    "merchantName": "Amdocs",
+    "merchantId": 31,
+    "amount": 34,
+    "createDate": {
+      "$date": "2025-03-09T10:19:53.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599a"
+    },
+    "merchantName": "Mobileye",
+    "merchantId": 32,
+    "amount": 57,
+    "createDate": {
+      "$date": "2025-03-06T03:50:07.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599b"
+    },
+    "merchantName": "Check Point Software Technologies",
+    "merchantId": 33,
+    "amount": 85,
+    "createDate": {
+      "$date": "2025-03-25T18:28:32.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599c"
+    },
+    "merchantName": "NICE Systems",
+    "merchantId": 34,
+    "amount": 32,
+    "createDate": {
+      "$date": "2025-03-25T16:33:01.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599d"
+    },
+    "merchantName": "Fattal Group",
+    "merchantId": 35,
+    "amount": 65,
+    "createDate": {
+      "$date": "2025-03-16T02:58:50.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599e"
+    },
+    "merchantName": "Caesarstone",
+    "merchantId": 36,
+    "amount": 54,
+    "createDate": {
+      "$date": "2025-03-01T12:18:27.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b599f"
+    },
+    "merchantName": "Elbit Systems",
+    "merchantId": 37,
+    "amount": 75,
+    "createDate": {
+      "$date": "2025-03-01T00:01:36.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a0"
+    },
+    "merchantName": "Plasson Industries",
+    "merchantId": 38,
+    "amount": 64,
+    "createDate": {
+      "$date": "2025-03-20T22:09:12.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a1"
+    },
+    "merchantName": "Israel Chemicals (ICL)",
+    "merchantId": 39,
+    "amount": 61,
+    "createDate": {
+      "$date": "2025-03-04T05:24:20.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a2"
+    },
+    "merchantName": "H&M Israel",
+    "merchantId": 40,
+    "amount": 40,
+    "createDate": {
+      "$date": "2025-03-03T09:30:13.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a3"
+    },
+    "merchantName": "Levi's Israel",
+    "merchantId": 41,
+    "amount": 20,
+    "createDate": {
+      "$date": "2025-03-21T06:49:24.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a4"
+    },
+    "merchantName": "Lacoste Israel",
+    "merchantId": 42,
+    "amount": 68,
+    "createDate": {
+      "$date": "2025-03-28T10:33:26.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a5"
+    },
+    "merchantName": "Nike Israel",
+    "merchantId": 43,
+    "amount": 63,
+    "createDate": {
+      "$date": "2025-03-19T04:50:32.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a6"
+    },
+    "merchantName": "Adidas Israel",
+    "merchantId": 44,
+    "amount": 64,
+    "createDate": {
+      "$date": "2025-03-07T00:20:01.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a7"
+    },
+    "merchantName": "Under Armour Israel",
+    "merchantId": 45,
+    "amount": 64,
+    "createDate": {
+      "$date": "2025-03-14T12:45:10.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a8"
+    },
+    "merchantName": "Tommy Hilfiger Israel",
+    "merchantId": 46,
+    "amount": 55,
+    "createDate": {
+      "$date": "2025-03-21T17:20:02.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59a9"
+    },
+    "merchantName": "Diesel Israel",
+    "merchantId": 47,
+    "amount": 100,
+    "createDate": {
+      "$date": "2025-03-06T15:33:35.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59aa"
+    },
+    "merchantName": "Spritz",
+    "merchantId": 48,
+    "amount": 89,
+    "createDate": {
+      "$date": "2025-03-08T20:51:01.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59ab"
+    },
+    "merchantName": "Aluma Tech",
+    "merchantId": 49,
+    "amount": 48,
+    "createDate": {
+      "$date": "2025-03-21T08:43:52.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf844fc13ae1ffa5b59ac"
+    },
+    "merchantName": "Hutzot HaYotzer",
+    "merchantId": 50,
+    "amount": 73,
+    "createDate": {
+      "$date": "2025-03-17T12:10:08.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf8c9fc13ae218d5b58ee"
+    },
+    "merchantName": "WOLT",
+    "merchantId": 10,
+    "amount": 73,
+    "createDate": {
+      "$date": "2025-03-13T05:14:44.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf8c9fc13ae218d5b58e5"
+    },
+    "merchantName": "Yes Planet",
+    "merchantId": 1,
+    "amount": 56,
+    "createDate": {
+      "$date": "2025-03-24T22:58:56.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebf8c9fc13ae218d5b58ef"
+    },
+    "merchantName": "Domino's Pizza",
+    "merchantId": 11,
+    "amount": 68,
+    "createDate": {
+      "$date": "2025-03-29T11:08:09.000Z"
+    }
+  }]

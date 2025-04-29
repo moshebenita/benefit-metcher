@@ -2,6 +2,7 @@ package com.poalim.hackaton.service.feign;
 
 import com.poalim.hackaton.service.feign.object.AnalalyzeResponse;
 import com.poalim.hackaton.service.feign.object.AnalayzeRequest;
+import com.poalim.hackaton.service.feign.object.InsightsByCategoryResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,7 +13,7 @@ import java.util.List;
 public interface AnalyzeClient {
 
     @PostMapping(value = "/analyze", consumes = "application/json")
-    AnalalyzeResponse analyze(@RequestBody AnalayzeRequest request);
+    InsightsByCategoryResponse analyze(@RequestBody AnalayzeRequest request);
 
 
 }

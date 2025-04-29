@@ -2,7 +2,19 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/loyalty-matcher
+  cache:
+    cache-names:
+      - missedOpportunities
+      - matchBenefits
+    caffeine:
+      spec: maximumSize=500,expireAfterWrite=10m
+
 
 server:
   servlet:
     context-path: /benefits-matcher
+
+logging:
+  level:
+    root: info
+    com.poalim.hackaton: debug
