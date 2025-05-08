@@ -1,7 +1,6 @@
 package com.poalim.hackaton.db.repository;
 
 
-import com.poalim.hackaton.db.model.Benefit;
 import com.poalim.hackaton.db.model.Transaction;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

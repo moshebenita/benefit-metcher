@@ -3,46 +3,43 @@ package com.poalim.hackaton.process;
 import com.poalim.hackaton.db.model.Transaction;
 import com.poalim.hackaton.db.repository.BenefitRepository;
 import com.poalim.hackaton.db.repository.TransactionRepository;
+import com.poalim.hackaton.mapper.BenefitMapper;
 import com.poalim.hackaton.rest.object.Benefit;
-import com.poalim.hackaton.service.feign.AnalayzeConverter;
 import com.poalim.hackaton.service.feign.AnalyzeClient;
-import com.poalim.hackaton.service.feign.object.AnalalyzeResponse;
-import com.poalim.hackaton.service.feign.object.AnalayzeRequest;
-import com.poalim.hackaton.service.feign.object.InsightsByCategoryResponse;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.poalim.hackaton.service.feign.object.AnalyzeRequest;
+import com.poalim.hackaton.service.feign.object.AnalyzeResponse;
+import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class ProcessApiRequest {
 
-    @Autowired
-    private BenefitRepository benefitRepository;
-    
-    @Autowired
-    private TransactionRepository transactionRepository;
-
-    @Autowired
-    private AnalyzeClient analyzeClient;
-
+    private final BenefitRepository benefitRepository;
+    private final TransactionRepository transactionRepository;
+    private final AnalyzeClient analyzeClient;
+    private final BenefitMapper benefitMapper;
 
     @Cacheable(value = "missedOpportunities", key = "#customerId")
     public List<Benefit> getMissedOpportunities(String customerId){
         List<com.poalim.hackaton.db.model.Benefit> benefitsData = benefitRepository.findAll();
         List<Transaction> transactions = transactionRepository.findAll();
 
-        AnalayzeRequest analyze = AnalayzeConverter.convertAnalayzeRequest(benefitsData, transactions);
-        InsightsByCategoryResponse response = analyzeClient.analyze(analyze);
+        AnalyzeRequest analyze = new AnalyzeRequest(transactions,benefitsData);
 
-        return response.getInsightsByCategory().stream()
-                .flatMap(categoryInsight -> categoryInsight.getBenefits().stream())
+        AnalyzeResponse response = analyzeClient.analyze(analyze);
+
+        List<com.poalim.hackaton.db.model.Benefit> missedBenefits = benefitsData.stream()
+                .filter(benefit -> response.getBenefitIds().contains(benefit.getId()))
                 .toList();
+
+        return benefitMapper.toBenefitList(missedBenefits);
 //        List benefits = new ArrayList();
 //        benefits.add( new Benefit("m1"
 //                ,"Flight Discounts","You could have saved on your flight to London. Next time use our app!"
@@ -74,7 +71,7 @@ public class ProcessApiRequest {
                 .filter(benefit -> merchantIdsInTransactions.contains(benefit.getMerchantId()))
                 .collect(Collectors.toList());
 
-        return BenefitMapper.mapAll(matchedBenefits);
+        return benefitMapper.toBenefitList(matchedBenefits);
 
 //        List benefits = new ArrayList();
 //        benefits.add( new Benefit("m1"

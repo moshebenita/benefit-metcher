@@ -11,6 +11,6 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class InsightsByCategoryResponse {
-    private List<CategoryInsight> insightsByCategory;
+public class AnalyzeResponse {
+    private List<String> benefitIds;
 }

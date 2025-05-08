@@ -58,48 +58,20 @@ def extract_json(text):
 # Build prompt based on input
 def build_prompt(credit_usages, benefits):
     return (
-            "You are given two input lists:\n" +
-            f"1. Credit card expenses: {credit_usages}\n" +
-            f"2. Available benefits: {benefits}\n" +
-            "\n" +
-            "Your task is to identify unused benefits where the business name appears in the expenses list.\n" +
-            "Group the unused benefits by category, using your own judgment to determine the best fit.\n" +
-            "\n" +
-            "⚠️ USE ONLY the following categories (exactly as written):\n" +
-            " - Movies\n" +
-            " - Food\n" +
-            " - Attraction\n" +
-            " - Entertainment\n" +
-            " - Home\n" +
-            " - Clothes\n" +
-            "\n" +
-            "⚠️ DO NOT use the category field from the input.\n" +
-            "⚠️ DO NOT return any explanation, formatting, or extra text.\n" +
-            "⚠️ You must return a single valid JSON object with the following **exact** structure.\n" +
-            "⚠️ All fields must be present and non-null in every benefit object.\n" +
-            "\n" +
-            "Return only this:\n" +
-            "{\n" +
-            "  \"insightsByCategory\": [\n" +
-            "    {\n" +
-            "      \"category\": \"<string>\",\n" +
-            "      \"benefits\": [\n" +
-            "        {\n" +
-            "          \"id\": \"<string>\",\n" +
-            "          \"title\": \"<string>\",\n" +
-            "          \"description\": \"<string>\",\n" +
-            "          \"savings\": \"<string>\",\n" +
-            "          \"points\": <int>,\n" +
-            "          \"category\": \"<string>\",\n" +
-            "          \"image\": \"<string>\",\n" +
-            "          \"type\": \"<string>\",\n" +
-            "          \"purchaseDate\": \"<string>\",\n" +
-            "          \"originalPrice\": \"<string>\"\n" +
-            "        }\n" +
-            "      ]\n" +
-            "    }\n" +
-            "  ]\n" +
-            "}"
+        "You are given two input lists:\n"
+        f"1. Credit card expenses: {credit_usages}\n"
+        f"2. Available benefits: {benefits}\n\n"
+        "Your task is to identify benefits that were likely **missed opportunities**, meaning:\n"
+        "- The benefit `title` does NOT exactly match any `merchantName` in the expenses.\n"
+        "- However, if a benefit belongs to the same **category** as any expense, and was not used, consider it a missed opportunity.\n\n"
+        "Return a single JSON object with this exact format:\n"
+        "{\n"
+        "  \"benefitIds\": [\"<string>\", \"<string>\", ...]\n"
+        "}\n\n"
+        "⚠️ Use the value from `_id.$oid` of each benefit as the string ID.\n"
+        "⚠️ Do NOT return any duplicate IDs.\n"
+        "⚠️ Each ID should appear only **once**, even if matched by both title and category.\n"
+        "⚠️ Do NOT include any explanation or formatting, only valid JSON.\n"
     )
 
 @app.route('/analyze', methods=['POST'])
